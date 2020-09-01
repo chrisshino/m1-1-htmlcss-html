@@ -4,9 +4,9 @@
 
 Type true/false in the provided [ ].
 
-a) [ ] `<div><span>hello</div></span>`
+a) [false] `<div><span>hello</div></span>`
 
-b) [ ]
+b) [false]
 
 ```html
 <ul>
@@ -14,7 +14,7 @@ b) [ ]
 </ol>
 ```
 
-c) [ ] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [false] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
@@ -29,6 +29,8 @@ b) You want to create a website that lists all the art gallery websites in your 
 c) You want to sell designer hats. You need to receive orders from the user.
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
+
+It is not valid to nest a button inside of a button element.
 
 ## Q5 - What is the most generic tag you can use?
 
