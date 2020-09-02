@@ -18,7 +18,7 @@ c) [false] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
-_Feel free to use the powers of Google here, but please provide link(s) to your source(s)_
+A screenreader is important for those with visual disabilities to understand whats going on infront of them. For example: if your html isn't set up properly using semantic tags we now have available then screenreaders wont be able to properly read aloud whats going on.
 
 ## Q3 - For each of the following cases, which tags will be needed?
 
