@@ -14,9 +14,8 @@ b) [false]
 </ol>
 ```
 
-c) [false] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [true] `<ul></ul><img/><ol><li>one</li></ol>`
 
-<!-- this could be true if the backslash on the img tag wasn't there at least in html5 -->
 
 ## Q2 - What is a screenreader and why should we care about them?
 
@@ -42,7 +41,7 @@ It is not valid to nest a button inside of a button element.
 
 ## Q5 - What is the most generic tag you can use?
 
-
+There is a lot of generic tags: div, p, a, img, etc
 
 ## Q6 - What do the following achronyms stand for?
 
@@ -62,14 +61,28 @@ g) `td` table data
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
 
+tr - table rows 
+
 ## Q8 - What is the difference between td and th?
+
+a table header is bolded by default a td is not.
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
 
+h1 
+
 ## Q10 - In which situation can you use self closing tags?
+
+img 
 
 ## Q11 - What is autofilling and why is it important?
 
+the brower watches the person filling a form and recognizes things like address and the user can save this info for reuse.
+
 ## Q12 - Which attributes are always present in an img element?
 
+src
+
 ## Q13 - Which attribute is always present for an anchor tag?
+
+href
