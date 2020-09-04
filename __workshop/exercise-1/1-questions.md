@@ -77,7 +77,9 @@ img
 
 ## Q11 - What is autofilling and why is it important?
 
-the brower watches the person filling a form and recognizes things like address and the user can save this info for reuse.
+the autocomplete attribut on input elements can be used to fill the field quicker. This depends on the user-agent and broswer to remember past values entered by the user.
+
+user agents might require: name or id attribute, be children of a form element or have a submit button on the form.
 
 ## Q12 - Which attributes are always present in an img element?
 
