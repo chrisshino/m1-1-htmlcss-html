@@ -1,1 +1,49 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/" id="reg-form">
+      <h1>Registration form</h1>
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username" required />
+      <label for="password">password</label>
+      <input type="text" name="password" required />
+      <label for="Email">Email</label>
+      <input type="text" name="Email" required />
+      <h2>Which taxi do you require?</h2>
+      <label for="car">Car</label>
+      <input type="radio" id="car" name="vehicle" value="tukTuk" required />
+
+      <label for="Van">Van</label>
+      <input type="radio" id="Van" name="vehicle" value="tukTuk" required />
+
+      <label for="tukTuk">Tuk Tuk</label>
+      <input type="radio" id="tukTuk" name="vehicle" value="tukTuk" required />
+
+      <h2>Choose your extras</h2>
+      <label for="baby">Baby seat</label>
+      <input type="checkbox" id="baby" value="baby" />
+      <label for="wheel">Wheelchair access</label>
+      <input type="checkbox" id="wheel" value="wheel" />
+      <label for="privacy">Privacy windows</label>
+      <input type="checkbox" id="privacy" value="privacy" />
+
+      <h2>Where would you like us to pick you up?</h2>
+      <label for="location">Pickup Location</label>
+      <select name="pickup" id="location" name="location-list" form="reg-form">
+        <option value="pickup">Select One</option>
+        <option value="pickup2">Select Two</option>
+      </select>
+
+      <h2>Additional Instructions</h2>
+      <label for="special">Special</label>
+      <textarea name="special" id="special" cols="18" rows="2"></textarea>
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
